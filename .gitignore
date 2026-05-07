@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.vite/
+coverage/
+.nyc_output/
+__pycache__/
+*.py[cod]
+.idea/

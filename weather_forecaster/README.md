@@ -1,0 +1,32 @@
+Weather Forecaster
+===================
+
+A simple Python module for forecasting environmental data from node-1 sensors.
+
+## Quick Start
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Retrain model:**
+   ```bash
+   python -c "from node1_forecaster import retrain; retrain()"
+   ```
+3. **Run scheduler:**
+   ```bash
+   python scheduler.py
+   ```
+
+## Data
+- Input: `data/data.csv` (must have columns: Timestamp, Device, Temperature (°C), Humidity (%), Air Quality)
+- Only rows with `Device == 'node-1'` are used
+
+## Output
+- `node1_model.pkl`, `node1_features.pkl` (model and scaler)
+- Console: MAE and next-40 forecast table
+
+## Files
+- `app.py`, `node1_forecaster.py`, `scheduler.py`, `requirements.txt`, `data/`, `forecast_data.json`
+
+See `requirements.txt` for dependencies.

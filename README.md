@@ -15,6 +15,9 @@ Environmental logging and monitoring: IoT sensor data, dashboard, forecasts, and
 
 Secrets (`.env`) and `node_modules` are not tracked. Regenerate Prisma client after clone: `cd backend && npm run prisma:generate`.
 
+
+
+
 ENVIRALOG IoT PROJECT
 Simple but Detailed Setup & Overview Guide
 

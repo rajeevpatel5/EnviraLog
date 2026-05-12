@@ -3,6 +3,8 @@
 > **An IoT-based environmental monitoring system.**
 > Collects sensor data, visualises it in real time, manages devices, and forecasts future conditions using machine learning.
 
+**Authors:** Rajeev Patel · Manis Khatri
+
 ---
 
 ## Table of Contents
@@ -16,6 +18,7 @@
 7. [How to Run the Full System](#7-how-to-run-the-full-system)
 8. [Common Problems](#8-common-problems)
 9. [Notes](#9-notes)
+10. [Authors](#10-authors)
 
 ---
 
@@ -286,3 +289,12 @@ Then:
 - **MQTT is optional** — the backend also accepts data over HTTP.
 - Make sure the required ports (`3001`, `5173`) are free.
 - Use proper credentials in `.env` — do **not** commit secrets.
+
+---
+
+## 10. Authors
+
+This project is attributed to:
+
+- **Rajeev Patel**
+- **Manis Khatri**
